@@ -1,5 +1,6 @@
 package de.shadowdara.offroadcars;
 
+import de.shadowdara.offroadcars.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,7 @@ public class OffroadCars implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Loading Offroad Cars");
+        LOGGER.info("Loading Offroad Cars");
+        ModItems.registerModItems();
 	}
 }
