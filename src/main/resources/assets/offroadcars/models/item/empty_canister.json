@@ -1,8 +1,9 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "custom/black",
-		"2": "custom/dark_grey"
+		"1": "offroadcars:black",
+		"2": "offroadcars:dark_grey"
 	},
 	"elements": [
 		{

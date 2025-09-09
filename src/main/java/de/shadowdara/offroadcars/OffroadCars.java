@@ -1,5 +1,6 @@
 package de.shadowdara.offroadcars;
 
+import de.shadowdara.offroadcars.item.ModItemGroups;
 import de.shadowdara.offroadcars.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,9 @@ public class OffroadCars implements ModInitializer {
 	@Override
 	public void onInitialize() {
         LOGGER.info("Loading Offroad Cars");
+
+        ModItemGroups.registerItemGroups();
+
         ModItems.registerModItems();
 	}
 }

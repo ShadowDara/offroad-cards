@@ -1,9 +1,10 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "custom/red",
-		"1": "custom/black",
-		"particle": "custom/red"
+		"0": "offroadcars:red",
+		"1": "offroadcars:black",
+		"particle": "offroadcars:red"
 	},
 	"elements": [
 		{

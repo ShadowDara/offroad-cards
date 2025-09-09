@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "offroadcars:black"
+    },
+    {
+      "type": "single",
+      "resource": "offroadcars:dark_grey"
+    },
+    {
+      "type": "single",
+      "resource": "offroadcars:red"
+    }
+  ]
+}
